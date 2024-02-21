@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(name = "MyServlet", urlPatterns = { "/hello" })
-public class Servlet extends HttpServlet
+public class HelloWoeldServlet extends HttpServlet
 {
 
 	private static final long serialVersionUID = 1L;
